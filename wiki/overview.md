@@ -3,8 +3,8 @@ title: "Overview — CRC Metastasis"
 type: overview
 tags: [overview, metastasis, colorectal-cancer]
 created: 2026-04-26
-updated: 2026-04-26
-sources: []
+updated: 2026-04-29
+sources: [hanahan-2026-hallmarks-cancer, canellas-socias-2022-emp1-hrcs]
 ---
 
 # Overview: Metastasis of Colorectal Cancer
@@ -54,6 +54,14 @@ The current model involves sequential steps:
 4. **Extravasation** — arrest in target organ vasculature, extravasation
 5. **Colonization** — niche establishment, dormancy vs. outgrowth, organ-specific adaptation
 
+### The metastasis-initiating cell state: HRCs
+A pivotal recent finding (Cañellas-Socias et al. 2022) identifies **[[EMP1]]-high High-Relapse Cells (HRCs)** as the cellular origin of CRC metastatic recurrence. HRCs are a distinct epithelial cell state — enriched at invasion fronts, tumour buds, and stroma-contacting clusters — defined by the 99-gene EpiHR signature. They are not LGR5+ cancer stem cells (mutually exclusive distributions). Key points:
+- ~30–40% of CRC patients undergoing curative resection develop metastatic relapse; HRCs are the residual cells responsible
+- Micrometastases are HRC-dominated; LGR5+ cells take over as metastases grow
+- Ablating EMP1+ cells before surgery prevents relapse; ablating LGR5+ cells does not
+- CAFs induce the HRC state; KRAS mutations correlate with higher HRC abundance
+- Neoadjuvant anti-PD1 + anti-CTLA4 exploits a window of T-cell susceptibility in early micrometastases to prevent relapse in MSS CRC mouse models
+
 ---
 
 ## Current Treatment Landscape
@@ -69,10 +77,17 @@ The current model involves sequential steps:
 
 ## Open Questions
 
-*(to be populated as sources are ingested)*
+- What transcription factor(s) maintain the HRC/EMP1-high state?
+- What liver microenvironmental signals permit HRC colonization?
+- What triggers the HRC → LGR5+ transition during metastatic outgrowth?
+- Can EMP1 surface expression be exploited for targeted therapy (ADC, CAR-T)?
+- Can neoadjuvant immunotherapy be combined with HRC-targeting for synergistic MSS CRC prevention?
+- Why do some patients with EMP1-high primary tumours never relapse?
 
 ---
 
 ## Key Tensions in the Field
 
-*(to be populated as sources are ingested)*
+- **LGR5+ cells and metastasis**: De Sousa e Melo (2017) showed LGR5+ cells necessary for liver metastasis; Cañellas-Socias (2022) shows LGR5+ cells dispensable for dissemination but required for outgrowth. Reconciled by stage specificity — different experimental models tested different bottlenecks.
+- **YAP and plasticity**: YAP has been linked to CRC metastasis and cell plasticity, but rigorously shown *not* to control the HRC transcriptional state (Cañellas-Socias 2022). YAP may act at other stages.
+- **EMT in CRC**: Canonical EMT TFs (ZEB1/2, SNAI1/2) are not upregulated in HRCs; instead, a partial EMT module (Lama2, Itga2, Plaur) defines invasive capacity while retaining epithelial identity.
