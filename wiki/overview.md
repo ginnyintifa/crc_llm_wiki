@@ -4,7 +4,7 @@ type: overview
 tags: [overview, metastasis, colorectal-cancer]
 created: 2026-04-26
 updated: 2026-04-29
-sources: [hanahan-2026-hallmarks-cancer, canellas-socias-2022-emp1-hrcs]
+sources: [hanahan-2026-hallmarks-cancer, canellas-socias-2022-emp1-hrcs, heinlein-2026-mapk-wnt-metastasis, riedl-2026-kras-inhibitors-review]
 ---
 
 # Overview: Metastasis of Colorectal Cancer
@@ -62,16 +62,24 @@ A pivotal recent finding (Cañellas-Socias et al. 2022) identifies **[[EMP1]]-hi
 - CAFs induce the HRC state; KRAS mutations correlate with higher HRC abundance
 - Neoadjuvant anti-PD1 + anti-CTLA4 exploits a window of T-cell susceptibility in early micrometastases to prevent relapse in MSS CRC mouse models
 
+### The MAPK-high/WNT-low axis: upstream regulator of the HRC state
+Heinlein et al. (2026) identified the transcriptional program governing HRC identity: a **MAPK-high, WNT-low** cell state driven by AP-1 TFs (downstream KRAS/MAPK) and associated with chromosomal amplification of MAPK pathway genes. Key implications:
+- MAPK signaling drives EMP1 expression via AP-1 chromatin remodeling; WNT suppression enforces the HRC/non-stem identity
+- Metastatic CRC cells selected by serial in vivo passaging are MAPK-high/WNT-low; KRAS^G12D inhibition (MRTX1133) reverts this state and reduces liver/lung metastases
+- High MAPK + low WNT gene signature is prognostic in patients (AVANT HR 1.67; CALGB HR 2.29) — better than KRAS mutation status alone
+- Adaptive WNT reactivation upon KRAS inhibition suggests combined MAPK + WNT targeting may be needed
+
 ---
 
 ## Current Treatment Landscape
 
 - **Chemotherapy backbone**: FOLFOX, FOLFIRI, FOLFOXIRI
 - **Biologics**: bevacizumab (anti-VEGF), cetuximab/panitumumab (anti-EGFR; RAS/BRAF WT only), ramucirumab, ziv-aflibercept
-- **Targeted**: BRAF V600E — encorafenib + cetuximab; KRAS G12C — sotorasib/adagrasib
+- **Targeted**: BRAF V600E — encorafenib + cetuximab; **KRAS G12C — sotorasib + panitumumab (FDA approved, Codebreak 300)**; adagrasib + cetuximab (accelerated approval)
 - **Immunotherapy**: pembrolizumab (MSI-H/dMMR only, 1st line)
 - **Surgery**: liver resection in selected patients; HIPEC for peritoneal disease
-- **Emerging**: KRAS G12D targeting, SMAD4-directed approaches, combination immunotherapy strategies for MSS
+- **Emerging KRAS^G12D targeting**: KRAS^G12D is the most prevalent KRAS mutation in CRC (~12.6%). Zoldonrasib (ORR 61% NSCLC, 30% PDAC), GFH375 (ORR 58% NSCLC, 41% PDAC), and ASP3082 (PROTAC, ORR 38%) are in Phase 1/2 trials. Anti-EGFR combinations likely needed given EGFR-driven adaptive resistance in CRC.
+- **YAP/TEAD co-inhibition + KRAS**: preclinical synergy; may prevent adaptive resistance to KRAS inhibitors via SHOC2/PP1c-YAP bypass pathway
 
 ---
 
@@ -88,6 +96,7 @@ A pivotal recent finding (Cañellas-Socias et al. 2022) identifies **[[EMP1]]-hi
 
 ## Key Tensions in the Field
 
-- **LGR5+ cells and metastasis**: De Sousa e Melo (2017) showed LGR5+ cells necessary for liver metastasis; Cañellas-Socias (2022) shows LGR5+ cells dispensable for dissemination but required for outgrowth. Reconciled by stage specificity — different experimental models tested different bottlenecks.
-- **YAP and plasticity**: YAP has been linked to CRC metastasis and cell plasticity, but rigorously shown *not* to control the HRC transcriptional state (Cañellas-Socias 2022). YAP may act at other stages.
-- **EMT in CRC**: Canonical EMT TFs (ZEB1/2, SNAI1/2) are not upregulated in HRCs; instead, a partial EMT module (Lama2, Itga2, Plaur) defines invasive capacity while retaining epithelial identity.
+- **LGR5+ cells and metastasis**: De Sousa e Melo (2017) showed LGR5+ cells necessary for liver metastasis; Cañellas-Socias (2022) shows LGR5+ cells dispensable for dissemination but required for outgrowth. Reconciled by stage specificity. Heinlein (2026) adds mechanistic explanation: LGR5+ cells require WNT-high/MAPK-low state; metastatic dissemination requires the inverse.
+- **YAP and the HRC state**: YAP activity is elevated in MAPK-high metastatic cells (Heinlein 2026), yet YAP knockdown does not affect EMP1/HRC state (Cañellas-Socias 2022). Reconciled: MAPK → YAP and MAPK → EMP1 are parallel, not sequential; YAP is co-elevated but not causally upstream of EMP1 specifically.
+- **EMT in CRC**: Canonical EMT TFs (ZEB1/2, SNAI1/2) are not upregulated in HRCs; instead, a partial EMT module (Lama2, Itga2, Plaur) and AP-1 TFs (MAPK effectors) define invasive capacity while retaining epithelial identity.
+- **Prognostic markers in CRC**: KRAS mutation status alone is insufficient (Heinlein 2026); combined MAPK + WNT activity score is significantly more prognostic across two patient cohorts.

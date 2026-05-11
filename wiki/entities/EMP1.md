@@ -3,8 +3,8 @@ title: "EMP1 (Epithelial Membrane Protein 1)"
 type: entity
 tags: [biomarker, invasion, intravasation, colonization, liver-mets, lung-mets, EMT, cancer-stem-cell, high-evidence]
 created: 2026-04-28
-updated: 2026-04-28
-sources: [canellas-socias-2022-emp1-hrcs]
+updated: 2026-05-10
+sources: [canellas-socias-2022-emp1-hrcs, heinlein-2026-mapk-wnt-metastasis]
 ---
 
 # EMP1 (Epithelial Membrane Protein 1)
@@ -41,6 +41,14 @@ The EMP1high state is distinct from:
 - LAMC2 expression (a coreHRC gene) correlates with EMP1 mRNA in CRC patient samples; LAMC2 is a known tumour budding marker
 - EMP1 mRNA detectable by RNAscope FISH in human CRC tissue; elevated at invasion fronts (LGR5 marks cores)
 
+## Upstream Regulation: MAPK/AP-1 Axis
+Heinlein et al. (2026) identified the upstream transcriptional regulator of EMP1 in CRC metastasis that Cañellas-Socias 2022 could not determine:
+- **MAPK pathway activation** drives EMP1 expression via **AP-1 transcription factors** (BATF, ATF3, FRA1, JUNB, FOS — all downstream MAPK effectors)
+- ATAC-seq of metastatic P5 vs. non-metastatic P1 tumor cells: AP-1 motifs are the most enriched in P5; increased chromatin accessibility at the *Emp1* locus near AP-1 binding sites
+- ENCODE ChIP-seq confirmed AP-1 family TF binding at the *EMP1* promoter in human cell lines
+- KRAS^G12D inhibition (MRTX1133) rapidly (3 d) and significantly reduces *Emp1* expression in vivo
+- YAP activity is elevated in MAPK-high/EMP1-high metastatic cells (Heinlein 2026) but is NOT the direct driver: TEAD inhibitor alone did not further modulate EMP1 or MAPK targets — consistent with Cañellas-Socias 2022 finding that YAP KD does not affect EMP1/HRC state. MAPK → YAP and MAPK → EMP1 are parallel downstream paths.
+
 ## Therapeutic Targeting
 Direct targeting of EMP1 has not been validated clinically, but proof-of-concept in mouse models:
 - Genetic ablation of EMP1high cells (iCasp9 system) before surgery prevents metastatic relapse in AKTP, AKP, and AKPS models
@@ -56,6 +64,9 @@ Direct targeting of EMP1 has not been validated clinically, but proof-of-concept
 | CAF co-culture induces 6-fold increase in EMP1high cells | AKTP MTOs in vitro | [[canellas-socias-2022-emp1-hrcs]] |
 | KRAS mutations correlate with EpiHR/EMP1 expression | TCGA COAD + CRISPR CTOs | [[canellas-socias-2022-emp1-hrcs]] |
 | EMP1 marks invasion fronts in human CRC (RNAscope FISH) | Patient tissue | [[canellas-socias-2022-emp1-hrcs]] |
+| EMP1 is top MAPK target gene; AP-1 TF binding at Emp1 locus | AKPS mouse (ATAC-seq) + ENCODE human | [[heinlein-2026-mapk-wnt-metastasis]] |
+| KRAS^G12D inhibition (MRTX1133) significantly reduces Emp1 expression in vivo | AKPS P5 mouse model | [[heinlein-2026-mapk-wnt-metastasis]] |
+| EMP1 expression correlates with poor survival (MAPK-high/WNT-low signature) | AVANT + CALGB patient cohorts | [[heinlein-2026-mapk-wnt-metastasis]] |
 
 ## Open Questions
 - What transcription factor(s) drive the EMP1high/HRC state? (Not YAP, not canonical EMT TFs)

@@ -4,7 +4,7 @@ type: concept
 tags: [EMT, EMP, metastasis, invasion, plasticity, CTCs, liver-mets, peritoneal-mets]
 created: 2026-04-26
 updated: 2026-04-29
-sources: [hanahan-2026-hallmarks-cancer, canellas-socias-2022-emp1-hrcs]
+sources: [hanahan-2026-hallmarks-cancer, canellas-socias-2022-emp1-hrcs, heinlein-2026-mapk-wnt-metastasis, riedl-2026-kras-inhibitors-review]
 ---
 
 # Epithelial-Mesenchymal Plasticity (EMP)
@@ -45,13 +45,24 @@ Cancer cells do not make a complete, irreversible switch. Instead they occupy a 
 - Instead, HRCs express a **partial EMT module**: Lama3, Lamc2, Itga2, Plaur — genes associated with basement membrane invasion and extravasation.
 - HRCs also upregulate junctional complex genes: Pcdh1, Dsc2, Clnd4, Jup (plakoglobin) — enabling cluster-based CTC formation (higher metastatic efficiency).
 - HRCs are transcriptionally related to basal-like pancreatic cancer and tumour budding cells (KRT17, LAMC2).
-- This is the most thoroughly mechanistically characterized CRC EMP state to date.
+
+### MAPK-high/WNT-low as the transcriptional driver of the HRC/partial-EMT state
+- Heinlein et al. (2026) identified the upstream driver of the HRC/EMP1 state: **MAPK pathway activation** via AP-1 TFs (BATF, ATF3, FRA1, JUNB, FOS) directly remodels chromatin at the *Emp1* locus and the broader invasion gene network.
+- The MAPK-high state simultaneously suppresses WNT/LGR5 stem programs — explaining the HRC/LGR5+ mutual exclusivity observed in Cañellas-Socias 2022.
+- KRAS^G12D inhibition rapidly (3 d) reduces EMP1 expression and reverts the metastatic/partial-EMT transcriptional state, validating MAPK as the governing pathway.
 
 ### Other evidence (from Hanahan 2026 framework)
 - Hybrid EMT states, not fully mesenchymal cells, have the highest metastatic efficiency in experimental models
 - Single-cell transcriptomics of CRC liver metastases reveals heterogeneous EMP states
 - SMAD4 loss in CRC (associated with poor prognosis) is linked to TGF-β signaling dysregulation and EMP
 - CTC clusters in CRC patients are associated with worse prognosis than single CTCs
+
+## EMP as resistance to KRAS inhibition
+Riedl et al. (2026) explicitly identifies EMT as a validated non-genetic resistance mechanism to KRAS^G12C inhibitors:
+- Tumor cells under KRAS inhibition pressure can acquire mesenchymal motility and invasiveness via ZEB1, SNAI1/2, TWIST upregulation
+- This represents a form of KRAS dependency escape: cells reduce reliance on KRAS signaling by shifting transcriptional programs
+- Histologic transformation (related process) also reported: adenocarcinoma → squamous cell carcinoma in NSCLC under KRAS^G12C inhibitor pressure
+- This connects directly to the HRC/EMP1 findings: HRCs represent the pre-existing partial-EMT state that enables initial dissemination, while full EMT induction during KRAS inhibition may represent acquired resistance in the metastatic setting
 
 ## Debates / Contradictions
 - The utility of E-cadherin as an EMT marker is debated — partial loss may be sufficient for invasion without complete EMP
@@ -75,4 +86,5 @@ Cancer cells do not make a complete, irreversible switch. Instead they occupy a 
 
 ## References
 - [[hanahan-2026-hallmarks-cancer]] (framework)
-- [[canellas-socias-2022-emp1-hrcs]] (HRC partial-EMT state in CRC)
+- [[canellas-socias-2022-emp1-hrcs]] (HRC partial-EMT state in CRC; EMP1 as marker)
+- [[heinlein-2026-mapk-wnt-metastasis]] (MAPK/AP-1 as upstream driver of HRC/EMP1 partial-EMT state; KRAS inhibition reverts)

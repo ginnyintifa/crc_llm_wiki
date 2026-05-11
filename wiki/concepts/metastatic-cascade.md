@@ -4,7 +4,7 @@ type: concept
 tags: [metastasis, invasion, intravasation, extravasation, colonization, dormancy, CTC, premetastatic-niche]
 created: 2026-04-26
 updated: 2026-04-29
-sources: [hanahan-2026-hallmarks-cancer, canellas-socias-2022-emp1-hrcs]
+sources: [hanahan-2026-hallmarks-cancer, canellas-socias-2022-emp1-hrcs, heinlein-2026-mapk-wnt-metastasis]
 ---
 
 # The Metastatic Cascade
@@ -51,6 +51,7 @@ A key open question — *which cell type seeds metastases?* — has been directl
 
 - **[[EMP1]]-high HRCs (High-Relapse Cells)** are the metastasis-initiating population. They express the EpiHR signature (99-gene epithelial poor-prognosis set), populate invasion fronts and tumour buds, and exclusively populate liver micrometastases immediately after dissemination (Cañellas-Socias et al. 2022).
 - **HRCs are distinct from LGR5+ cancer stem cells**: mutually exclusive UMAP distributions; HRCs lack the WNT/ISC transcriptional program.
+- The **transcriptional identity** of HRCs is a **MAPK-high, WNT-low** state driven by AP-1 TFs (BATF, ATF3, FRA1, JUNB, FOS — downstream MAPK effectors) — identified by Heinlein et al. (2026) as the upstream regulator the Cañellas-Socias paper could not determine.
 - **Stage-specific cellular roles** (Cañellas-Socias 2022):
   - Seeding/dissemination: HRCs (EMP1-high) — ablation before surgery prevents relapse
   - Micrometastasis initiation: HRCs occupy the apex of the cellular hierarchy
@@ -104,3 +105,4 @@ A key finding from Hanahan 2026: **there are no universal "metastasis-specific" 
 ## References
 - [[hanahan-2026-hallmarks-cancer]] (framework)
 - [[canellas-socias-2022-emp1-hrcs]] (HRC identity; stage-specific cellular roles; neoadjuvant immunotherapy window)
+- [[heinlein-2026-mapk-wnt-metastasis]] (MAPK-high/WNT-low as transcriptional identity of metastasis-initiating cells; KRAS^G12D inhibition reverts state; patient prognostic data)
