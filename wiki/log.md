@@ -6,6 +6,10 @@ Parse last 5 entries: `grep "^## \[" wiki/log.md | tail -5`
 
 ---
 
+## [2026-08-22] query | How does Heinlein 2026 add value to the Hanahan 2026 hallmarks review?
+
+Analysis page created: wiki/analyses/heinlein-paper-advances-on-hallmarks-framework.md. Key points: CIN (chromosomal amplification of MAPK genes, not new mutations) shown to causally drive hallmark 1; AP-1 TF network identified as the reversible chromatin toggle underlying hallmark 7 (plasticity); direct demonstration of Hanahan's "no universal metastasis genes, CIN+EMP drive invasion" claim; complication flagged for hallmark co-targeting rationale — single-node KRAS/MAPK inhibition alone reverted plasticity, metastasis, and an immune-evasion phenotype (MHC-I), suggesting these hallmarks are coupled rather than independent in this system; MAPK+WNT activity signature validated as prognostic (AVANT, CALGB cohorts) where KRAS mutation status alone was not. Index updated.
+
 ## [2026-05-11] ingest | Riedl et al. 2026 — Emerging landscape of KRAS inhibitors in cancer treatment
 
 Source page created: wiki/sources/riedl-2026-kras-inhibitors-review.md. Entity updated: wiki/entities/KRAS.md (therapeutic targeting section substantially rewritten: three drug classes, CRC clinical data, resistance mechanisms). Concept updated: wiki/concepts/epithelial-mesenchymal-plasticity.md (EMT as KRAS inhibitor resistance mechanism added). Overview updated: treatment landscape updated with sotorasib + panitumumab FDA approval, G12D agents, YAP co-inhibition. Index + log updated. Key tension resolved: YAP molecular mechanism after KRAS inhibition (Scribble → SHOC2/PP1c → YAP) now explains the Cañellas-Socias/Heinlein discrepancy. MRTX1133 Phase 1 termination noted.

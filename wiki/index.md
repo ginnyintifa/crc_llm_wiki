@@ -64,3 +64,4 @@ Master catalog of all pages. Updated on every ingest.
 
 ## Analyses
 - [[emp1-paper-advances-on-hallmarks-framework]] — How Cañellas-Socias 2022 concretely instantiates and advances six specific points from the Hanahan hallmarks framework (2 sources)
+- [[heinlein-paper-advances-on-hallmarks-framework]] — How Heinlein 2026 mechanistically links CIN, plasticity, and metastasis to the Hanahan hallmarks framework, and complicates its co-targeting rationale (2 sources)

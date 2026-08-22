@@ -107,3 +107,4 @@ KRAS^G12D is the most prevalent KRAS mutation in CRC (~12.6%). First-generation 
 - [[heinlein-2026-mapk-wnt-metastasis]]
 - [[canellas-socias-2022-emp1-hrcs]]
 - [[hanahan-2026-hallmarks-cancer]]
+- [[riedl-2026-kras-inhibitors-review]]
